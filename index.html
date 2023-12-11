@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hana</title>
+    <style>
+        body {
+            background-color: black; /* Establece el fondo negro */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Usa toda la altura de la ventana */
+            margin: 0; /* Elimina el margen predeterminado del cuerpo */
+        }
+
+        img {
+            max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+            height: auto; /* Mantiene la proporción original de la imagen */
+        }
+        audio {
+            filter: invert(1); /* Invierte los colores */
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.discord.com">
+        <img id="punpunaiko" src="archives/punpunaiko.png" alt="us">
+    </a>
+    <audio id="audio" controls autoplay loop>
+        <source src="archives/memory.mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+</body>
+</html>
