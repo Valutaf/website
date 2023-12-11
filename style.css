@@ -1,0 +1,32 @@
+/* Customize the advanced audio player's appearance here */
+.audio-player {
+    width: 400px;
+    margin: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.progress {
+    height: 10px;
+    background-color: #000000;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+#current-time{
+    margin-top: 10px;
+}
+#total-time {
+    margin-top: -22px;
+    margin-left: 370px;
+}
